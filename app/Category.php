@@ -1,0 +1,16 @@
+<?php
+
+namespace App;
+
+use Illuminate\Database\Eloquent\Model;
+
+class Category extends Model
+{
+    public function term() {
+        return $this->belongsTo('App\Term');
+    }
+
+    public function post() {
+        return $this->hasMany('App\Post');
+    }
+}

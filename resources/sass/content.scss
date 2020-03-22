@@ -1,0 +1,17 @@
+#app {
+  .logo {
+    max-height: 50px;
+  }
+}
+.masonry-blog {
+  .masonry-box {
+    img.img-fluid {
+      height: 500px;
+      object-fit: cover;
+    }
+  }
+}
+.post-media img {
+  height: 200px;
+  object-fit: cover;
+}
