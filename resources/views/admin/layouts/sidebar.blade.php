@@ -1,7 +1,7 @@
 <nav id="sidebar" class="col-md-3 ml-sm-auto col-lg-2">
   <ul class="list-unstyled components" id="sidebar-menu">
     <li @if(Route::currentRouteName() == 'admin.home') class="active" @endif>
-        <a href="{{ route('admin.home') }}">
+        <a href="{{ route('home') }}">
             Home
         </a>
     </li>
