@@ -1662,6 +1662,11 @@ cipher-base@^1.0.0, cipher-base@^1.0.1, cipher-base@^1.0.3:
     inherits "^2.0.1"
     safe-buffer "^5.0.1"
 
+ckeditor4@^4.14.0:
+  version "4.15.1"
+  resolved "https://registry.yarnpkg.com/ckeditor4/-/ckeditor4-4.15.1.tgz#296eca67b87298afd2b6d7f1e04bfae7a7eb8cec"
+  integrity sha512-t2q61VG2h0i5DwZ+G3jTesrBSGnhNK0iKVdSzLBKx40PQzcDUDZOWJbMlpbAOuMzAAS096x5J2H4u/IyQRl1vQ==
+
 class-utils@^0.3.5:
   version "0.3.6"
   resolved "https://registry.yarnpkg.com/class-utils/-/class-utils-0.3.6.tgz#f93369ae8b9a7ce02fd41faad0ca83033190c463"
@@ -2200,10 +2205,17 @@ datatables.net-dt@^1.10.20:
     datatables.net "1.10.20"
     jquery ">=1.7"
 
-datatables.net@1.10.20, datatables.net@^1.10.20:
+datatables.net@1.10.20:
   version "1.10.20"
   resolved "https://registry.yarnpkg.com/datatables.net/-/datatables.net-1.10.20.tgz#9d65ecc3c83cbe7baa4fa5a053405c8fe42c1350"
   integrity sha512-4E4S7tTU607N3h0fZPkGmAtr9mwy462u+VJ6gxYZ8MxcRIjZqHy3Dv1GNry7i3zQCktTdWbULVKBbkAJkuHEnQ==
+  dependencies:
+    jquery ">=1.7"
+
+datatables.net@^1.10.22:
+  version "1.10.22"
+  resolved "https://registry.yarnpkg.com/datatables.net/-/datatables.net-1.10.22.tgz#975d4ffb1eb40dec5fb772eaf93796ec1a948b55"
+  integrity sha512-ujn8GvkQIBYzYH54XY7OrI0Zb35TKRd9ABYfbnXgBfwTGIFT6UsmXrfHU5Yk+MSDoF0sDu2TB+31V6c+zUZ0Pw==
   dependencies:
     jquery ">=1.7"
 
